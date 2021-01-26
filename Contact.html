@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      body{
+        background: url(IMAGES/3.jpeg);
+        background-size: cover;
+      }
+      /*internal css*/
+      .footerbody {
+        position: absolute;
+        width: 100%;
+
+      }
+    </style>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="Javascript/script.js"></script>
+</head>
+</header>
+<body>
+  <div class="nav">
+    <a class="a"href="Home.html">Home</a>
+    <a class="b" href="Blog.html">Blog</a>
+    <a class="c" href="CV.html">CV</a>
+    <a class="d" href="Research.html">Research</a>
+    <a class="e active" href="Contact.html">Contact</a>
+  </div> 
+  <div class="contact-form">
+    <h1>Contact Us</h1>
+    <form id="myform" name = "myForm" onsubmit="validate()"><!--viliditing the form-->
+      <div class="txtb">
+        <label>Full Name :</label>
+        <input type="text" name="name" value="" placeholder="Enter Your Full Name" id="name">
+      </div>
+
+      <div class="txtb">
+        <label>Email :</label>
+        <input type="email" name="email" value="" placeholder="Enter Your Email" id="email">
+      </div>
+
+      <div class="txtb">
+        <label>Phone Number :</label>
+        <input type="Number" name="phone" value="" placeholder="Enter Your Phone Number" id="Phone">
+      </div>
+
+      <div class="txtb">
+        <label>Message :</label>
+        <input type="text" name="message" value="" placeholder="Enter Your Feedback" id="message">
+        <textarea></textarea>
+      </div>
+      <div class="textb">
+        <label>Gender :</label>
+        <input type="radio" name="r1" id="r1">Male
+        <input type="radio" name="r1">Female
+      </div>
+      <input type="submit" name="submit">
+    </form>
+  </div>
+
+  <footer class="footerbody"><!--footer-->
+
+    <div class="footerleft">
+
+      <h3>Hemaraj<span>Dhakal</span></h3>
+
+      <p class="footerlink">
+        <a href="Home.html">Home</a>&nbsp; &nbsp;
+
+        <a href="Blog.html">Blog</a>&nbsp; &nbsp;
+
+        <a href="CV.html">CV</a>&nbsp; &nbsp;
+
+        <a href="Research.html">Research</a>&nbsp; &nbsp;
+
+        <a href="Contact.html">Contact</a>&nbsp; &nbsp;
+      </p>
+
+      <p class="footername">Hemaraj Dhakal © 2020</p>
+
+
+
+    </div>
+
+    <div class="footerright">
+
+      <p>Contact Me</p><br>
+      <p> Email:hemrajdhakal.suman@gmail.com</p><br>
+      <p> Phone number:+9779816302869</p><br>
+      <p> <a href="https://www.facebook.com/hemraj.dhakal.357">Facebook </a>&nbsp; &nbsp; <a href="https://www.instagram.com/hemraj1267/">Instagram</a></p><br>
+
+
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
